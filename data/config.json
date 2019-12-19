@@ -1,0 +1,9 @@
+{
+ "projpin": 2, 
+ "projpulse": 350, 
+ "slides": 80, 
+ "slideinterval": 3000, 
+ "campin": 4, 
+ "campulse":  350, 
+ "settle": 500
+}

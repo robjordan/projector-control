@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Slide Scanning by Projector</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body id="home">
+
+  <div class="container">
+    <form action="/action" method="POST">
+      <fieldset>
+        <legend>Projector</legend>
+        <div class="row">
+          <div class="col-48">
+            <label for="lprojpin">IO Pin</label>
+          </div>
+          <div class="col-52">
+            <input id="lprojpin" name="projpin" type="number" name="quantity" min="1" max="16" >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-48">
+            <label for="lprojpulse">Pulse (ms)</label>
+          </div>
+          <div class="col-52">
+            <input id="projpulse" name="projpulse" type="number" name="quantity" min="100" max="800" value=350>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-48">
+            <label for="lslides">Slides</label>
+          </div>
+          <div class="col-52">
+            <input id="lslides" name="slides" type="number" name="quantity" min="1" max="200" value=80>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-48">
+            <label for="lslideinterval">Slide Interval (ms)</label>
+          </div>
+          <div class="col-52">
+            <input id="lslideinterval" name="slideinterval" type="number" name="quantity" min="1000" max="10000" value=3000>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Camera</legend>
+        <div class="row">
+          <div class="col-48">
+            <label for="lcampin">IO Pin</label>
+          </div>
+          <div class="col-52">
+            <input id="lcampin" name="campin" type="number" name="quantity" min="1" max="16" value=4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-48">
+            <label for="lcampulse">Pulse (ms)</label>
+          </div>
+          <div class="col-52">
+            <input id="lcampulse" name="campulse" type="number" name="quantity" min="100" max="800" value=350>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-48">
+            <label for="lsettle">Settle Time (ms)</label>
+          </div>
+          <div class="col-52">
+            <input id="lsettle" name="settle" type="number" name="quantity" min="50" max="2000" value=500>
+          </div>
+        </div>
+      </fieldset>
+
+      <INPUT type="submit" name="button" value="Start">
+      <INPUT type="submit" name="button" value="Save Values">
+    </form>
+  </div>
+</body>
+
+</html>
