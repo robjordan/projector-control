@@ -37,7 +37,10 @@ void printFile(const char *filename);
 // pre-declare the function that controls the sequence of camera / projector operations
 bool runSlideScanner();
 
-
+// processing web page
+const String holding1 = "<!DOCTYPE html><html><head><meta http-equiv=\"refresh\" content=\"";
+const String holding2 = ";URL=/\"></head><body><p>Slide scanning in progress. Estimated time to complete: ";
+const String holding3 = " seconds</p></body></html>";
 
 void setup() {
   // put your setup code here, to run once:
@@ -146,15 +149,10 @@ bool handleForm() {
     if (myServer->arg("button").startsWith("Save")) {
       // update saved configuration parameteres
       saveConfiguration(cfgfile, cfg);
-      myServer->send(200, "text/plain", "Saved new configuration values.");
+      return handleFileRead("/saved.html");
       
-      // Dump config file
-      Serial.println(F("Print config file..."));
-      printFile(cfgfile);
-
-      return true;
     } else if (myServer->arg("button").startsWith("Start")) {
-      myServer->send(200, "text/plain", "Started processing slides... standby.");
+
       return runSlideScanner(
         cfg.projpin,
         cfg.projpulse,
@@ -277,6 +275,11 @@ bool runSlideScanner(
   pinMode(cfg.campin, OUTPUT);
   digitalWrite(cfg.campin, HIGH);
   Serial.println("Relay switches should now be open");
+
+  // put up a holding web page, with an indication of time to complete (ttc)
+  unsigned int ttc = 
+    (slides * (projpulse + settle + campulse + slideinterval) / 1000) + 1;
+  myServer->send(200, "text/html", holding1 + ttc + holding2 + ttc + holding3);
 
   for (int slide=0; slide < slides; slide++) {
     // Advance slide   
