@@ -10,6 +10,10 @@ The camera I use is a micro four-thirds format, with a sensor size of 18mm x 13.
 
 The camera lens is pointed into the hole at the front of the projector, where the objective lens would normally be. With a slide in position, one has to carefully position the camera and projector so that the lens is contred on the slide, its axis is perpendicular to the slide (to ensure no keystone distortion), and the distance from camera to slide is such that the image of the slide sits within the edges of the sensor. The lens aperature can be opened up to f/2.8 for accurate focusing, and then closed down to f/8.0 for optimal sharpness and a depth of field somewhere between 1-2mm, which is fine to ensure sharp focus right across the slide.
 
+The setup is pictured below.
+
+![Overhead view of setup](./images/overhead.jpg)
+
 
 
  
