@@ -49,6 +49,8 @@ The cycle of actions to digitise one slide is as follows:
 * Close the camera relay for a period defined by *Camera:Pulse*. I found this needed to be at least 2 seconds, due to exposure bracketing; the shutter release must remain pressed for as long as it takes to photograph and store three images in the camera's buffer.
 * Pause for a further period defined by *Projector:Interval* to allow images to be written to disk.
 
+The cycle is repeated until all slides, defined by *Projector:Slides*, have been processed.
+
 With my rather ancient Panasonic G1, and a class 10 memory card, I found I could take process one slide (with three bracketed images) in around 6 seconds. Thus a full, 80-slide carousel can be processed, unattended, in about 8 minutes. 
  
 # Inspiration
