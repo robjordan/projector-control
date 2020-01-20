@@ -1,6 +1,6 @@
 Arduino ESP8266 sketch to control a slide projector and camera, in order to digitise slides at high speed.
 
-# Digitising 35mm slides quickly using projector, DSLR camera and microcontroller
+# Digitising 35mm slides quickly using a projector, DSLR camera and a microcontroller
 
 ## The problem
 
