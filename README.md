@@ -57,8 +57,8 @@ With my rather ancient Panasonic G1, and a class 10 memory card, I found I could
 
 Various web sites and Youtube videos inspired this approach.
 
-* http://babryce.com/slidedigitizer.html and https://www.flickr.com/photos/bbryce/4149018287
-* https://www.scantips.com/es-1.html
-* https://petapixel.com/2014/02/11/neat-diy-projector-rig-lets-digitize-15-slides-per-minute-automatically/
-* https://hackaday.io/project/158667-kodak-slide-projector-scanner and https://www.youtube.com/watch?v=V_DTgok2Bfw
-* https://www.youtube.com/watch?v=D91gBsKxtfg
+* B A Bryce [here](http://babryce.com/slidedigitizer.html) and [here](https://www.flickr.com/photos/bbryce/4149018287).
+* Scantips [here](https://www.scantips.com/es-1.html).
+* Petapixel [here](https://petapixel.com/2014/02/11/neat-diy-projector-rig-lets-digitize-15-slides-per-minute-automatically/).
+* Bryan Howard on [Hackaday](https://hackaday.io/project/158667-kodak-slide-projector-scanner) and [Youtube](https://www.youtube.com/watch?v=V_DTgok2Bfw).
+* Roger de Groen on [Youtube](https://www.youtube.com/watch?v=D91gBsKxtfg).
