@@ -18,7 +18,7 @@ The camera I use, a Panasonic Lumix G1, is micro four-thirds format, with a sens
 
 The camera lens is pointed into the hole at the front of the projector, where the objective lens would normally be. With a slide in position, one has to carefully position the camera and projector so that the lens is centred on the slide, its axis is perpendicular to the slide (to ensure no keystone distortion), and the distance from camera to slide is such that the image almost fills the sensor. The lens aperture can be opened up to f/2.8 for accurate focusing, and then closed down to f/8.0 for optimal sharpness and a depth of field somewhere between 1-2mm, which is fine to ensure sharp focus right across the slide.
 
-The camera was set to manual focus, and aperture-priority automatic exposure. Photos were taken in raw mode, to preserve flexibility over setting exposure and white balance in post-processing. I used the camera's ability to bracket exposures to take three images of each slide, at the automatice exposure and +/- 2/3 of a stop.
+The camera was set to manual focus, and aperture-priority automatic exposure. Photos were taken in raw mode, to preserve flexibility over setting exposure and white balance in post-processing. I used the camera's ability to bracket exposures to take three images of each slide, at the automatic exposure and +/- 2/3 of a stop.
 
 The setup is pictured below.
 
